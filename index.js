@@ -7,7 +7,7 @@ const bodyParser=require('body-parser');
 var bodyParsermiddleware=bodyParser.urlencoded({extended:false});
 app.set('view engine','ejs');
 // connect db
-mongoose.connect('mongodb+srv://ritwik:ritwik@cluster0.hvo8b.mongodb.net/database?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://ritwik:*****@cluster0.hvo8b.mongodb.net/database?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
